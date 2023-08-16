@@ -19,4 +19,4 @@ for i in range(0,n-1):
             v[j] = v[j+1]
             v[j+1] = t
         
-print(f"Elements that are sorted in ascending order are:{v}") #print vector sorted
+print(f"Elements that are sorted in ascending order are:{v}") #print sorted vector
