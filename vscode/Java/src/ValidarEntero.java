@@ -2,6 +2,10 @@ import java.util.Scanner;
 
 public class ValidarEntero {
 
+    /**
+     * @param cad
+     * @return boolean
+     */
     public static boolean validarEntero(String cad) {
         Integer tam = cad.length(), i = 0;
         boolean sw = true;
