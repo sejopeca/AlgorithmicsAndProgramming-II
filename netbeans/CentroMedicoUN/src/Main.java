@@ -104,11 +104,8 @@ public class Main extends javax.swing.JFrame {
         return cad1.length();
     }
 
-    public static int compareTo(String cad1, String cad2, boolean validationFun) {
+    public static int compareTo(String cad1, String cad2) {
         int minLength = minLength(cad1, cad2);
-        if (validationFun(1)) {
-            
-        }
         cad1 = cad1.toLowerCase();
         cad2 = cad2.toLowerCase();
         boolean sw = false;
