@@ -3,8 +3,10 @@ import java.util.Scanner;
 public class ValidarEntero {
 
     /**
+     * Validate if one string is an integer
+     * 
      * @param cad
-     * @return boolean
+     * @return boolean: true: string is integer, false: string is not an integer
      */
     public static boolean validarEntero(String cad) {
         Integer tam = cad.length(), i = 0;
